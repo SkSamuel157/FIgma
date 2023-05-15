@@ -1,0 +1,37 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1700px;
+
+background: #57A5A7;
+border-radius: 50px;
+}
+
+header{
+    position: absolute;
+width: 1519px;
+height: 150px;
+
+top: -8px;
+left: -8px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.Linha {
+    position: absolute;
+width: 110px;
+height: 0px;
+left: 450px;
+top: 65px;
+
+border: 5px solid #F00000;
+transform: rotate(-90deg);
+}
