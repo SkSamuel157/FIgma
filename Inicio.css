@@ -39,7 +39,7 @@ header {
     left: 0;
     right: 0;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 9px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -146,12 +146,40 @@ section .A {
 }
 #Linha2 {
     position: absolute;
-width: 1330px;
+width: 1390px;
 height: 0px;
-left: 49px;
+left: 65px;
 top: 840px;
 border-radius: 10px;
 
 border: 5px solid #F00000;
 transform: rotate(-0.09deg);
+}
+
+.slider {
+    position: absolute;
+    width: 1325px;
+    height: 650px;
+    left: 100px;
+    top: 900px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 20px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+}
+.slide img{
+    width:  1320px;
+}
+.manual-navegation{
+    position: absolute;
+    width: 1325px;
 }
